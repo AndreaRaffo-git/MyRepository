@@ -11,7 +11,6 @@ public class Main {
 		int v2 = 0;
 		int v3 = 0;
 		
-		
 		ArrayList<Orario> listaOrari = new ArrayList<Orario>();
 		
 		String filename = args[0];
