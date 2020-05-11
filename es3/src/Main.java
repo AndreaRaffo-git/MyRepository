@@ -1,4 +1,4 @@
-import java.io.FileNotFoundException;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,7 +11,6 @@ public class Main {
 		
 		ArrayList<Point> points = new ArrayList<Point>();
 		ArrayList<Point> deletedPoints = new ArrayList<Point>();
-		System.out.println("test");
 		String filename = args[0];
 		FileReader file =new FileReader(filename);
         Scanner scan = new Scanner(file);
